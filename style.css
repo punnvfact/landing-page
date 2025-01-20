@@ -17,19 +17,15 @@ body {
     color: #f9faf8;
 }
 
-.section-one {
+.right {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #1f2937;
+    gap: 20px;
 }
 
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    gap: 20px;
 }
 
 a {
@@ -37,13 +33,19 @@ a {
     color: #e5e7eb;
 }
 
+.section-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+}
+
 .content-one {
-    margin: 30px;
     padding: 30px;
     width: 300px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
 }
 
 .title-one {
@@ -58,9 +60,14 @@ a {
     flex: none;
 }
 
+.info-one {
+    color: #e5e7eb;
+}
+
 .content-two {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 30px
 }
 
 .title-two {
@@ -70,15 +77,23 @@ a {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    padding: 30px;
+}
+
+.item {
+    flex: 1;
+}
+
+.figure {
+    display: flex;
+    justify-content: center;
 }
 
 .img {
     border: #3882f6;
     border-radius: 3px;
-}
-
-.text {
-    color: #e5e7eb;
+    width: 150px;
+    height: 150px;
 }
 
 .button {
@@ -94,6 +109,8 @@ a {
     display: flex;
     background-color: #e5e7eb;
     justify-content: center;
+    height: 500px;
+    align-items: center;
 }
 
 .content-three {
@@ -106,6 +123,8 @@ a {
 
 .quote {
     color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
 }
 
 .author {
@@ -119,4 +138,6 @@ a {
 
 .footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
